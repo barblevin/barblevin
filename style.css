@@ -1,0 +1,102 @@
+body {
+    height: 100%;
+    min-height: 100vh;
+    background-image: url("CardPattern.svg");
+    background-size: auto 25px;
+    background-repeat: repeat;
+    /* background-image: linear-gradient(rgb(255, 255, 255), rgb(0, 0, 0, 0.6));
+    background-size: cover; */
+    color: black;
+    font-size: 20px;
+}
+
+.nav-link:hover {
+    color: #a07ab7;
+    text-decoration: none;
+}
+
+.container {
+    max-width: 980px;
+}
+
+#logo {
+    margin: 20px auto;
+}
+
+#jumbotron {
+    padding: 20px 0px 20px 0px;
+}
+
+#header {
+    margin-bottom: 100px;
+    background-color: #a07ab7;
+    text-align: center;
+}
+
+#tagline {
+    font-size: 30px;
+}
+
+#business {
+    font-size: 30px;
+}
+
+.contact {
+    color: black;
+}
+
+.contact:hover {
+    color: white;
+}
+
+#navbar {
+    background-color: #4a4b60;
+    padding: 5px 0px 5px 0px;
+}
+
+.nav-pills {
+    margin-top: 0px;
+}
+
+.nav-pills .nav-link.active {
+    background-color: #a07ab7;
+    border: 1px solid black;
+}
+
+.nav-link {
+    color: white;
+}
+
+.center-pills { 
+    display: flex;
+    justify-content: center;
+}
+
+img {
+    width: 100%;
+}
+
+.tab-content {
+    min-height: 500px;
+    margin: 0 auto 10px auto;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 50px 50px 10px 50px;
+}
+
+@media screen and (max-width: 414px) {
+    #contact {
+        font-size: 20px;
+    }
+
+    .nav-pills {
+        margin-top: 10px;
+    }
+
+    .tab-content {
+        min-height: auto;
+        margin: 0px 0px 10px 0px;
+        padding: 5px 10px 5px 10px;
+    }
+}
