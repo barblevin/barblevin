@@ -10,5 +10,5 @@ For the email and phone number links, I made them a tags and gave them an href o
 ***
 I used a div with the container for spacing in larger windows, but I added a margin to the "tab-content" in the mobile mode because I think it looks a little sharper.  It is a matter of preference, though.
 ***
-Ben took the pattern on the business card that we recieved and made an image based on that pattern that I used for the background.  If it is too busy or distracting, I left in a commented out gradient that can be used instead.
+Ben took the pattern on the business card that we recieved and made 2 images based on that pattern.  I went with a royalty free background (country-quilt3), but I left the other images in in-case we wanted to do something with them.
 ***
