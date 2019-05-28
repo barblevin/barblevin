@@ -31,11 +31,13 @@ body {
 }
 
 #tagline {
-    font-size: 30px;
+    font-size: 25px;
+    font-style: italic;
 }
 
 #business {
-    font-size: 30px;
+    font-size: 40px;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .contact {
@@ -84,14 +86,19 @@ body {
 }
 
 #services-list {
-    float: left;
+    display: inline-block;
 }
 
 #services-img {
-    float: right;
-    width: 300px;
+    float: left;
+    width: 250px;
     height: auto;
     padding-right: 10px;
+}
+
+.service-list-item {
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 #about-img {
@@ -107,7 +114,7 @@ body {
     background-color: white;
     border: 1px solid black;
     border-radius: 5px;
-    padding: 50px 50px 10px 50px;
+    padding: 50px;
     overflow: auto;
 }
 
@@ -115,10 +122,11 @@ body {
     #services-list {
         float: none;
     }
+
     #services-img {
-        float: none;
-        padding: 0pc;
+        display: none;
     }
+
     #home-contact {
         padding-top: 0px;
     }

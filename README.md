@@ -10,3 +10,4 @@ For the email and phone number links, I made them a tags and gave them an href o
 ***
 I used a div with the container for spacing in larger windows, but I added a margin to the "tab-content" in the mobile mode because I think it looks a little sharper.  It is a matter of preference, though.
 ***
+I chose Montserrat as the "snappiest" font that I thought still looked professional.  Roboto and Open Sans I think are slightly more professional, but might look too similar to the default.
